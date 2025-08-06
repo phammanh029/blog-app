@@ -1,0 +1,22 @@
+{
+  "name": "apis",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "apis/create-article",
+    "apis/get-article"
+  ],
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.859.0",
+    "@aws-sdk/util-dynamodb": "^3.859.0",
+    "aws-lambda": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/node": "^24.2.0",
+    "@types/aws-lambda": "^8.10.119",
+    "esbuild": "^0.21.0",
+    "typescript": "^5.4.0"
+  }
+}
