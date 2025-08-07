@@ -5,8 +5,7 @@
   "license": "MIT",
   "private": true,
   "workspaces": [
-    "apis/create-article",
-    "apis/get-article"
+    "*"
   ],
   "dependencies": {
     "@aws-sdk/client-dynamodb": "^3.859.0",

@@ -1,0 +1,9 @@
+{
+  "name": "create-article",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "zod": "^4.0.15"
+  }
+}
