@@ -1,8 +1,8 @@
 import { NestedStack, NestedStackProps, RemovalPolicy } from "aws-cdk-lib";
+import { AttributeType, BillingMode, Table } from "aws-cdk-lib/aws-dynamodb";
 import { BlockPublicAccess, Bucket } from "aws-cdk-lib/aws-s3";
 import { Construct } from "constructs";
 import { DeploymentEnv } from "../env";
-import { AttributeType, BillingMode, Table } from "aws-cdk-lib/aws-dynamodb";
 
 export interface ArticlesStackProps extends NestedStackProps {
   tableName: string;
